@@ -1,0 +1,364 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+
+ a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+ a:hover{
+	text-decoration: underline;
+	color:#FFFFFF;
+}
+
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	line-height:20px;
+	background: url(images/bg.jpg) center fixed no-repeat;
+	}
+	
+.bg_foot {
+background: url(images/footer.jpg) bottom repeat-x;}
+
+
+#main{
+	width: 1014px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#header { width:1014px;
+padding: 0px 0px 0px 0px;
+height: 193px;
+background: url(images/head.jpg) 197px 0px no-repeat ;
+}
+
+#buttons{
+	width: 1011px;
+	background: url(images/footer.jpg) left top repeat-x;
+	text-align:center;
+	height:48px;
+	margin-right:0px;
+	padding-left:3px;
+}
+
+
+#buttons a {
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight:bold;
+	display: block;
+	float: left;
+	width: 130px;
+	height: 28px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.razd_but {
+background:url(images/razd_b.gif) right top no-repeat;
+padding-right: 0px;
+width: 132px;
+height: 38px;
+float:left;}
+
+#buttons a:hover {
+	text-decoration: underline;
+	background: url(images/but_ov.gif) repeat-x 10px;
+	color:#FFFFFF;
+	margin-right: 0px;
+}
+
+#logo{
+	background: url(images/logo.jpg) center top no-repeat;
+	height: 100px;
+	padding: 55px 0px 0px 0px;
+}
+
+#logo a {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	font-size: 34px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-style:italic;
+}
+
+
+#logo H3 a{
+	font-size: 12px;
+	background:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+
+#bg_top {
+	background: url(images/bg_top.jpg) left top no-repeat;	
+	height:304px;
+	width:317px;
+	float:left;}
+	
+#text_top {
+	color:#000000;
+	width:234px;
+	margin: 11px 0px 0px 19px;}
+
+.header_back
+{
+width: 1014px;
+height: 299px;
+}
+
+#content{
+	width: 1014px;
+	padding: 0px 0px 0px 0px;
+	background: url(images/content_bg.png)
+}
+
+#left{
+	width: 700px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	float:left;
+	background: url(images/left.jpg) top repeat-x;
+	min-height: 590px;
+}
+
+.left1 {
+padding: 0px 20px 0px 15px;
+}
+
+.razd_l {
+height:2px;
+width: 100%;
+background:url(images/razd_l.gif) bottom repeat-x;}
+
+.tit_bot {	background: url(images/tit_bot.png) center top no-repeat;
+			padding: 7px 5px 0px 0px;
+}
+
+.text{
+	padding: 0px 20px 0px 15px;
+}
+
+.img {	float:left;
+		margin: 6px 17px 5px 0px;
+}
+
+.img_t {	float:left;
+		margin: 0px 10px 0px 0px;
+}
+.free {
+padding: 0px 0px 0px 10px;}
+
+span {	color:#C7EDF2;
+		font-weight:bold;
+}
+
+.color { color:#3774A0;}
+
+.dat { text-decoration:underline;}
+
+#right H1{
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color: #C7EDF2;
+	height: 29px;
+	padding-left: 0px;
+	padding-top: 16px;
+	text-align: left;
+}
+
+#left H2{
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color: #C7EDF2;
+	padding-bottom: 15px;
+	padding-left: 27px;
+	padding-top: 16px;
+	text-align:left;
+	background: url(images/tit_l.gif) 0px 17px  no-repeat;
+}
+
+.read{
+	text-align:right;
+	padding-right:5px;
+	padding-top: 15px;
+}
+
+.read_r{
+	text-align:right;
+	padding-right:5px;
+	padding-top: 8px;
+}
+
+#right{
+	float:right;
+	width: 295px;
+	margin-right: 3px;
+	background: url(images/right.jpg) top repeat-x;
+}
+
+
+
+#right ul 
+{
+	list-style: none;
+	padding-left:0px;
+	padding-top:0px;
+	margin: 0px;
+	display:block;
+	padding-bottom: 0px;
+	background:url(images/ul_bg.gif) left repeat-y;
+}
+
+#right li{
+	padding: 0px;
+}
+
+#right li a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 23px;
+	width: 270px;
+	display: block
+}
+
+#right li a:hover {
+	background: url(images/li_bg.gif) left repeat-y;
+	color: #333333
+}
+
+#right .list 
+{
+	list-style: none;
+	padding-left: 23px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin: 0px;
+	display:block;
+	background: url(images/fish.gif) 0px 12px no-repeat;
+}
+
+#footer{
+	height: 20px;
+	width: 994px;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	clear:both;
+	padding: 10px 10px 10px 10px;
+}
+
+#footer a{
+	color: #FFFFFF;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #FFFFFF;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(images/top.jpg) no-repeat;
+    width: 1014px;
+    height: 299px;
+    margin:0 auto;
+	
+}
+
+#slider {
+	position:relative;
+	width: 1014px;
+    height:299px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
